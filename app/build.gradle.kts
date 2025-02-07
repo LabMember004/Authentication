@@ -4,6 +4,9 @@ plugins {
     alias(libs.plugins.kotlin.compose)
 
     id("com.google.gms.google-services")
+ 
+
+
 }
 
 android {
@@ -65,6 +68,10 @@ dependencies {
 
     implementation ("com.google.firebase:firebase-auth-ktx:22.3.1")
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+
+
+
+
 
 
 }
