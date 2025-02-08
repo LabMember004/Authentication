@@ -1,9 +1,7 @@
-package com.example.authentication.presentation
+package com.example.authentication.domain.auth
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.authentication.domain.auth.LoginUseCase
-import com.example.authentication.domain.auth.RegisterUseCase
 import kotlinx.coroutines.launch
 
 class AuthViewModel(
